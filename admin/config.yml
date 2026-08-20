@@ -1,0 +1,42 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Wo hochgeladene Bilder gespeichert werden
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+publish_mode: simple
+
+collections:
+  - name: "faq"
+    label: "FAQ"
+    files:
+      - file: "content/faq.json"
+        label: "Häufige Fragen"
+        name: "faq"
+        fields:
+          - label: "Fragen & Antworten"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Frage", name: "question", widget: "string" }
+              - { label: "Antwort", name: "answer", widget: "text" }
+
+  - name: "news"
+    label: "News"
+    files:
+      - file: "content/news.json"
+        label: "News-Einträge"
+        name: "news"
+        fields:
+          - label: "Einträge"
+            name: "items"
+            widget: "list"
+            fields:
+              - label: "Datum"
+                name: "date"
+                widget: "string"
+                hint: "z. B. 2026-08 oder August 2026"
+              - { label: "Titel", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }

@@ -362,6 +362,30 @@
   .mail-link:hover{border-color:var(--orange);}
   @media (max-width:640px){.contact-grid{grid-template-columns:1fr;}}
 
+  /* ---------- Hilfe-Anlaufstellen ---------- */
+  .help-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));
+    gap:18px;
+  }
+  .help-card{
+    background:var(--white);
+    border:1px solid var(--mint-deep);
+    border-radius:16px;
+    padding:22px 24px;
+  }
+  .help-card h4{font-size:1rem; margin-bottom:10px; font-family:'Space Grotesk';}
+  .help-phone{
+    display:block;
+    font-weight:700; font-size:1.15rem;
+    color:var(--orange-deep);
+    text-decoration:none;
+    margin-bottom:4px;
+  }
+  .help-phone:hover{text-decoration:underline;}
+  .help-card p{font-size:0.88rem; color:var(--charcoal-soft); margin-top:8px;}
+  .help-card p a{color:var(--charcoal-soft); text-decoration:underline;}
+
   /* ---------- Footer ---------- */
   footer{
     background:var(--charcoal); color:rgba(251,248,243,0.75);
@@ -496,8 +520,8 @@
     <div class="wrap">
       <div class="section-head">
         <span class="kicker">Folgen</span>
-        <h2>Die neueste Folge auf Spotify</h2>
-        <p>Immer aktuell direkt aus Spotify – neue Folgen erscheinen hier automatisch. Links zu weiteren Plattformen findet ihr weiter unten.</p>
+        <h2>Die letzten Aufnahmen</h2>
+        <p>Immer aktuell direkt aus Spotify – neue Folgen erscheinen hier automatisch.</p>
       </div>
       <div class="spotify-embed">
         <iframe
@@ -571,6 +595,47 @@
     </div>
   </section>
 
+  <!-- WICHTIGER HINWEIS -->
+  <section id="hinweis" class="band-mint">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Wichtiger Hinweis</span>
+        <h2>Kein Ersatz für professionelle Hilfe</h2>
+        <p>Pottpsycho ist ein Gesprächsformat rund um psychisches Wohlbefinden. Auch wenn Meike als Dipl.-Psychologin fundiertes Fachwissen einbringt, ersetzen die Inhalte dieses Podcasts keine individuelle ärztliche, psychotherapeutische oder psychiatrische Behandlung, Diagnose oder Beratung. Was wir besprechen, sind allgemeine Einblicke und Perspektiven – kein persönliches Gutachten zu eurer individuellen Situation, das eine Fachperson nur nach einem persönlichen Gespräch geben kann.</p>
+      </div>
+
+      <p style="max-width:640px; margin-bottom:28px; color:var(--charcoal-soft);">Falls ihr selbst psychisch belastet seid oder Unterstützung braucht, wendet euch bitte an eine Fachperson oder eine der folgenden Anlaufstellen. Ihr seid mit euren Themen nicht allein – zögert nicht, euch Hilfe zu holen.</p>
+
+      <div class="help-grid">
+        <div class="help-card">
+          <h4>Akute Krise / Suizidgedanken</h4>
+          <a class="help-phone" href="tel:08001110111">📞 0800 111 0 111</a>
+          <a class="help-phone" href="tel:08001110222">📞 0800 111 0 222</a>
+          <p>Kostenlos, anonym, rund um die Uhr. Auch per Chat/Mail: <a href="https://online.telefonseelsorge.de" target="_blank" rel="noopener">online.telefonseelsorge.de</a></p>
+        </div>
+        <div class="help-card">
+          <h4>Notruf</h4>
+          <a class="help-phone" href="tel:112">🚨 112</a>
+        </div>
+        <div class="help-card">
+          <h4>Ärztlicher Bereitschaftsdienst</h4>
+          <a class="help-phone" href="tel:116117">📞 116 117</a>
+          <p>Außerhalb der Praxiszeiten</p>
+        </div>
+        <div class="help-card">
+          <h4>Deutsche Depressionshilfe</h4>
+          <a class="help-phone" href="tel:0800334533">📞 0800 33 44 533</a>
+          <p>Info-Telefon</p>
+        </div>
+        <div class="help-card">
+          <h4>Nummer gegen Kummer</h4>
+          <a class="help-phone" href="tel:116111">📞 116 111</a>
+          <p>Für Kinder &amp; Jugendliche</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- KONTAKT -->
   <section id="kontakt">
     <div class="wrap">
@@ -607,6 +672,7 @@
     </div>
     <div class="foot-bottom">
       <span>© 2026 Pottpsycho – Meike &amp; Frank</span>
+      <a href="#hinweis" style="color:inherit;">Wichtiger Hinweis &amp; Hilfe</a>
       <span>Made mit Herz aus dem Ruhrpott</span>
     </div>
   </div>

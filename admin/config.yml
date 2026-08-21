@@ -40,3 +40,40 @@ collections:
                 hint: "z. B. 2026-08 oder August 2026"
               - { label: "Titel", name: "title", widget: "string" }
               - { label: "Text", name: "text", widget: "text" }
+
+  - name: "shownotes"
+    label: "Shownotes"
+    files:
+      - file: "content/shownotes.json"
+        label: "Shownotes-Einträge"
+        name: "shownotes"
+        fields:
+          - label: "Einträge"
+            name: "items"
+            widget: "list"
+            fields:
+              - label: "Folge"
+                name: "episode"
+                widget: "string"
+                hint: "z. B. Folge 12"
+              - label: "Titel der Folge"
+                name: "title"
+                widget: "string"
+                required: false
+              - label: "Datum"
+                name: "date"
+                widget: "string"
+                required: false
+                hint: "z. B. 24.08.2026"
+              - label: "Links & Empfehlungen"
+                name: "resources"
+                widget: "list"
+                fields:
+                  - label: "Beschreibung"
+                    name: "label"
+                    widget: "string"
+                    hint: "z. B. Buch: Der Titel von Autor:in, oder Studie: Titel"
+                  - label: "Link (optional)"
+                    name: "url"
+                    widget: "string"
+                    required: false

@@ -937,8 +937,9 @@
         const el = document.createElement('div');
         el.className = 'shownote-card';
         const resourcesHtml = (item.resources || []).map(r => {
-          const content = r.url
-            ? `<a href="${r.url}" target="_blank" rel="noopener">${r.label}</a>`
+          const link = r.url || r.file;
+          const content = link
+            ? `<a href="${link}" target="_blank" rel="noopener">${r.label}</a>`
             : r.label;
           return `<li>${content}</li>`;
         }).join('');

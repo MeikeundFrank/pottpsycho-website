@@ -923,11 +923,17 @@
     .then(data => {
       const list = document.getElementById('shownotesList');
       list.innerHTML = '';
-      if (!data.items || data.items.length === 0) {
+      const now = new Date();
+      const visibleItems = (data.items || []).filter(item => {
+        if (!item.release_date) return true;
+        const releaseDate = new Date(item.release_date);
+        return isNaN(releaseDate) || releaseDate <= now;
+      });
+      if (visibleItems.length === 0) {
         list.innerHTML = '<p class="shownotes-empty">Hier sammeln wir ab der nächsten Folge Buchtipps, Studien und weiterführende Links – schaut bald wieder vorbei!</p>';
         return;
       }
-      data.items.forEach(item => {
+      visibleItems.forEach(item => {
         const el = document.createElement('div');
         el.className = 'shownote-card';
         const resourcesHtml = (item.resources || []).map(r => {

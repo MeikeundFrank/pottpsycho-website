@@ -65,6 +65,11 @@ collections:
                 widget: "string"
                 required: false
                 hint: "z. B. 24.08.2026"
+              - label: "Veröffentlichung planen (optional)"
+                name: "release_date"
+                widget: "datetime"
+                required: false
+                hint: "Der Eintrag erscheint auf der Website automatisch erst ab diesem Zeitpunkt. Leer lassen, um sofort zu veröffentlichen."
               - label: "Links & Empfehlungen"
                 name: "resources"
                 widget: "list"

@@ -82,3 +82,9 @@ collections:
                     name: "url"
                     widget: "string"
                     required: false
+                    hint: "z. B. Amazon-Link oder Website"
+                  - label: "PDF hochladen (optional)"
+                    name: "file"
+                    widget: "file"
+                    required: false
+                    hint: "Alternativ zu einem Link: eigene PDF-Datei hochladen (z. B. eine Studie als Dokument)"

@@ -6,7 +6,7 @@
     },
     {
       "question": "Wie oft erscheint eine neue Folge?",
-      "answer": "Neue Folgen erscheinen in aller Regel jeden 2. Montag um 16:00 Uhr"
+      "answer": "Platzhalter – trage hier euren tatsächlichen Rhythmus ein (z. B. alle zwei Wochen, donnerstags)."
     },
     {
       "question": "Wo kann ich Pottpsycho hören?",
@@ -15,6 +15,50 @@
     {
       "question": "Ersetzt der Podcast eine Therapie?",
       "answer": "Nein. Pottpsycho kann aufklären, Mut machen und Verständnis schaffen – er ersetzt aber keine professionelle Diagnose oder Behandlung."
+    },
+    {
+      "question": "Welche Qualifikation hat Meike genau?",
+      "answer": "Meike ist Diplom-Psychologin und hat ihre Approbation in Verhaltenstherapie am IPP in Münster absolviert. Darauf aufbauend hat sie bis heute folgende Zusatzausbildungen absolviert: Schematherapie, EMDR, Tanztherapie und Sexualtherapie."
+    },
+    {
+      "question": "Ist es nicht ungewöhnlich, dass aus einer Therapie eine Freundschaft wurde?",
+      "answer": "Das trauen sich viele Hörer:innen zu fragen, aber nicht laut auszusprechen. Offen und transparent beantwortet nimmt das Thema den komischen Beigeschmack und wirkt sehr glaubwürdig."
+    },
+    {
+      "question": "Bietet Meike über den Podcast Therapieplätze an?",
+      "answer": "Der Pottpsycho Podcast hat keinerlei inhaltliche Verbindung zur beruflichen Tätigkeit von Meike. Natürlich sind die fachliche Ausbildung und der Hintergrund die Basis für den fachlichen Inhalt des Podcasts; der Podcast stellt aber keine Werbung oder Ähnliches für Meikes berufliche Tätigkeit dar."
+    },
+    {
+      "question": "Welche Themen behandelt ihr im Podcast?",
+      "answer": "Wir wollen Themen ansprechen, die grundsätzlich etwas zu tun haben mit den Bereichen Psychoedukation, Therapie, Selbst-Wahrnehmung etc. – also alles, was im weiteren Sinne im allgemeinen Sprachgebrauch mit Psychologie und seelischer Gesundheit zu tun hat."
+    },
+    {
+      "question": "Sind eure Folgen für jeden geeignet, oder gibt es Trigger-Warnungen bei belastenden Themen?",
+      "answer": "Unser Podcast ist grundsätzlich für alle geeignet. Jedoch hat natürlich jeder Mensch seine individuelle Empfindlichkeit bzw. Trigger, die wir so pauschal nicht für euch alle bewerten können. Aus dem Titel der jeweiligen Folge lässt sich das Thema ableiten. Ansonsten limitiert die Dauer einer Folge von ca. 30 Minuten auch die Intensität des Themas."
+    },
+    {
+      "question": "Kann ich Themenwünsche einreichen, über die ihr sprechen sollt?",
+      "answer": "Wir freuen uns sehr über Themenwünsche und nehmen diese auch in unsere Planung auf. Themenwünsche übermittelt ihr uns am besten über unseren Instagram-Account oder per E-Mail an hallo@pottpsycho.de."
+    },
+    {
+      "question": "Wie kann ich euch unterstützen?",
+      "answer": "Unterstützung aus unserer Community ist für uns besonders wertvoll. Wir freuen uns also über jedes Like, jeden Kommentar und das Abonnieren auf allen Kanälen!"
+    },
+    {
+      "question": "Gibt es die Folgen auch als Video?",
+      "answer": "Wir veröffentlichen alle Folgen (ab Folge 15) auch auf YouTube. Link zum Kanal: <a href=\"https://www.youtube.com/@pottpsycho_podcast\" target=\"_blank\" rel=\"noopener\">youtube.com/@pottpsycho_podcast</a>"
+    },
+    {
+      "question": "Wo finde ich weiterführende Infos zu einzelnen Folgen?",
+      "answer": "Weiterführende Infos findest du zum Teil in den Shownotes der jeweiligen Folge und in aller Ausführlichkeit hier auf unserer Homepage im Bereich \"Shownotes\"."
+    },
+    {
+      "question": "Was mache ich, wenn ich mich in einer akuten Krise befinde?",
+      "answer": "Wenn du dich in einer akuten Krise befindest, wende dich bitte sofort an eine der Anlaufstellen in unserem Bereich <a href=\"#hinweis\">Wichtiger Hinweis</a> weiter unten auf dieser Seite – dort findet ihr unter anderem die Telefonseelsorge und den Notruf. Du bist mit deinen Themen nicht allein."
+    },
+    {
+      "question": "Wie finde ich selbst einen Therapieplatz?",
+      "answer": "Wir werden hier bald einen entsprechenden Fahrplan veröffentlichen, der euch Unterstützung bei der Suche nach einem Therapieplatz bietet – getrennt nach Versicherungsart, also gesetzlich und privat. Bis dahin empfehlen wir euch, ggf. Kontakt zu eurer Krankenversicherung aufzunehmen."
     }
   ]
 }
